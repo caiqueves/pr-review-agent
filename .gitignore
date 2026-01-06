@@ -1,0 +1,60 @@
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Build outputs
+# =========================
+bin/
+obj/
+out/
+
+# =========================
+# .NET
+# =========================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.deps.json
+*.runtimeconfig.json
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment variables
+# =========================
+.env
+.env.*
+
+# =========================
+# Node / frontend (se existir)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Test results
+# =========================
+TestResults/
+
+# =========================
+# Coverage
+# =========================
+coverage/
