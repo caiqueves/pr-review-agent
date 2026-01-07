@@ -51,12 +51,27 @@ Instead, it provides **objective, repeatable, and transparent validation** befor
 
 ---
 
+## 📁 Recommended Structure (Plug-and-Play)
+
+The PR Review Agent was designed to be **plug-and-play**.
+
+To use it in any project, you only need to **copy the agent folder into the repository root** and **adjust the validation criteria written in Markdown**.
+
+---
+
+### How to use
+
+1. Clone or copy the `https://github.com/caiqueves/pr-review-agent` folder
+2. Paste it into the **root of your target project**
+3. Create or update the validation rules at:
+
+
 ## 📁 Repository Structure
 
 Recommended structure for using the agent inside a project:
 
 .
-├── src/ # Application source code
+├── pr-review-agent/ # Application source code
 ├── docs/
 │ └── pr-standards.md # ✅ Validation criteria (standards-as-code)
 ├── tools/
@@ -67,7 +82,7 @@ Recommended structure for using the agent inside a project:
 │ └── workflows/
 │ └── pr-review.yml # GitHub Actions workflow
 └── README.md
-
+.
 
 ---
 
@@ -75,7 +90,7 @@ Recommended structure for using the agent inside a project:
 
 All validation rules are defined in a **Markdown file**, fully versioned and auditable.
 
-📍 **\docs\pr-standards.md**
+📍 **pr-review-agent\docs\pr-standards.md**
 
 ### Example
 
@@ -146,7 +161,7 @@ The agent runs automatically using **GitHub Actions** whenever a Pull Request is
 
 ### 📍 Workflow location
 
-**docs\pr-standards.md**
+**pr-review-agent\docs\pr-standards.md**
 
 ## 🔑 Environment Variables Used
 
