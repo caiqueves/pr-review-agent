@@ -14,7 +14,7 @@ var githubToken = Environment.GetEnvironmentVariable("GITHUB_TOKEN")
 // =====================
 // READ STANDARDS
 // =====================
-var standards = File.ReadAllText("pr-review-agent/docs/pr-standards.md");
+var standards = File.ReadAllText("docs/pr-standards.md");
 
 // =====================
 // READ PR NUMBER FROM EVENT
