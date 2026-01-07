@@ -234,3 +234,4 @@ static string ExtractPureJson(string content)
 
     return content.Substring(firstBrace, lastBrace - firstBrace + 1);
 }
+
