@@ -55,7 +55,9 @@ Instead, it provides **objective, repeatable, and transparent validation** befor
 
 The PR Review Agent was designed to be **plug-and-play**.
 
-To use it in any project, you only need to **copy the agent folder into the repository root** and **adjust the validation criteria written in Markdown**.
+To use it in any project, you only need to **copy the `.github`, `docs`, and `tools` folders into the repository root** and **adjust the validation criteria written in Markdown**.
+
+No additional code changes or configuration are required.
 
 ---
 
